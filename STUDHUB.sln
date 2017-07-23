@@ -5,6 +5,29 @@ VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STUDHUB", "STUDHUB\STUDHUB.csproj", "{F2E5C306-8512-4F2A-8ADD-4A1265A2937D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StudHub_final", "StudHub_final", "{73FCC0DB-BDD9-4FBA-AF55-E071DE8529E3}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite2", "WebSite2\", "{66B38919-7EB0-48AE-AE23-C329CE6BAF82}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52296"
+		Debug.AspNetCompiler.PhysicalPath = "WebSite2\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52296\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52296"
+		Release.AspNetCompiler.PhysicalPath = "WebSite2\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52296\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52296"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +38,15 @@ Global
 		{F2E5C306-8512-4F2A-8ADD-4A1265A2937D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2E5C306-8512-4F2A-8ADD-4A1265A2937D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2E5C306-8512-4F2A-8ADD-4A1265A2937D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B38919-7EB0-48AE-AE23-C329CE6BAF82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B38919-7EB0-48AE-AE23-C329CE6BAF82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B38919-7EB0-48AE-AE23-C329CE6BAF82}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B38919-7EB0-48AE-AE23-C329CE6BAF82}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{66B38919-7EB0-48AE-AE23-C329CE6BAF82} = {73FCC0DB-BDD9-4FBA-AF55-E071DE8529E3}
 	EndGlobalSection
 EndGlobal
